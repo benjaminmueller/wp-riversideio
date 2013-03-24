@@ -1,0 +1,61 @@
+.face {
+	box-shadow: 0 1px 1px #FFFFFF, 0 -1px 1px rgba(0, 0, 0, 0.5);
+	max-width: 100px;
+	transition: all 1s ease 0s;
+}
+
+.roundify {
+	border-radius: 50% 50% 50% 50%;
+}
+.center {
+	text-align: center;
+}
+
+.center img.avatar {
+	box-shadow: 0 1px 1px #FFFFFF, 0 -1px 1px rgba(0, 0, 0, 0.5);
+	max-width: 100px;
+	transition: all 1s ease 0s;
+	border-radius: 50% 50% 50% 50%;
+}
+
+.videos {
+	background: #222;
+	color: #FFF;
+}
+.videos h4 {
+	margin: 8px 0;
+	color: grey;
+}
+.videos p {
+	font-size: 14px;
+	color: grey;
+}
+
+
+/**** Header ***
+.site-logo {
+	text-align: center;
+}
+.site-logo img {
+	height: auto;
+	max-width: 150px;
+}
+.site-title {
+	font-size: 58px;
+	padding: 25px 0 10px;
+}
+.site-header .site-title:hover {
+	text-decoration: none;
+}
+.site-description {
+	font-size: 18px;
+}
+
+.navbar-fixed .site-header .span2 {
+	display: none;
+}
+*/
+/**** Bootstrap Mods ****/
+.container-fluid {
+	padding: 0;
+}
